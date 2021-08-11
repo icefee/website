@@ -1,0 +1,45 @@
+.container {
+    color: #fff;
+}
+
+.links {
+    padding: 20px;
+    background-color: #222;
+}
+
+.copyright {
+    background-color: #555;
+    padding: 10px 0;
+}
+
+.copyright p {
+    margin: 0;
+    text-align: center;
+}
+
+.linksInner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.links .inner ul {
+    margin: 0;
+}
+
+.links ul li {
+    padding: 5px 0;
+}
+
+.links h4, .links ul li a {
+    color: #fff;
+}
+
+.sns {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .linksInner {
+        justify-content: space-between;
+    }
+}

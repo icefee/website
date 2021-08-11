@@ -1,0 +1,20 @@
+.productGroup {
+    margin-bottom: 25px;
+}
+
+.productItem {
+    cursor: pointer;
+}
+
+.case {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .productGroup {
+        padding: 0 10px;
+    }
+}

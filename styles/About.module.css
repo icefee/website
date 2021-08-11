@@ -1,0 +1,7 @@
+.introduce h4 {
+    display: inline-block;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    color: #999;
+    border-bottom: 2px solid rgb(14, 150, 255);
+}
