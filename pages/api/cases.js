@@ -1,5 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
+// const baseUrl = process.env.NODE_ENV === 'development' ? '' : '/website';
+
 const CASES = [
   {
     category: 0,
@@ -17,7 +19,7 @@ const CASES = [
     category: 0,
     id: 10003,
     title: '电力案例3',
-    cover: '/products/2_1/3.png',
+    cover: '/products/2_1/3.jpg',
   },
   {
     category: 1,
@@ -49,7 +51,7 @@ const CASES = [
     title: '管廊案例1',
     cover: '/products/2_3/2.png',
   }
-];
+]; // .map(({ cover, ...rest }) => ({ cover: baseUrl + cover, ...rest }));
 
 export { CASES as cases };
 

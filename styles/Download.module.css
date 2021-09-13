@@ -1,0 +1,38 @@
+.banner {
+    position: relative;
+}
+
+.banner > * {
+    display: block !important;
+}
+
+.buttonGroup {
+    position: absolute;
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttonGroup * {
+    color: #fff;
+}
+
+.buttonGroup h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+}
+
+.buttonGroup h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .buttonGroup h2 {
+        font-size: 20px;
+    }
+}

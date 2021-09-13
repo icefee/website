@@ -5,15 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 4500",
     "export": "next export",
     "lint": "next lint",
-    "out": "serve out"
+    "out": "serve out -p 80"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "antd": "^4.16.10",
     "classnames": "^2.3.1",
+    "formidable": "^1.2.2",
     "next": "11.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -21,7 +22,9 @@
     "serve": "latest"
   },
   "devDependencies": {
+    "@types/react": "^17.0.20",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "typescript": "^4.4.2"
   }
 }
